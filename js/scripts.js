@@ -23,5 +23,8 @@ $(document).ready(function() {
     console.log(n);
     var results = glitch(n);
     console.log(results);
+    results.forEach(function(element) {
+  $('#solution').append("<li>" + element + "</li>");
   })
+})
 })
