@@ -21,7 +21,7 @@ $(document).ready(function() {
     event.preventDefault();
     var n = parseInt($('input#intake').val());
     console.log(n);
-    var result = glitch(n);
-    console.log(result);
+    var results = glitch(n);
+    console.log(results);
   })
 })
