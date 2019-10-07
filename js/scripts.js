@@ -1,3 +1,5 @@
+// Business logic
+
 function glitch(n) {
   var result = [];
   for (var i = 1; i <= n; i++) {
@@ -15,6 +17,9 @@ function glitch(n) {
   console.log(result);
   return result;
 }
+
+// User Interface logic
+
 
 $(document).ready(function() {
   $("#input form").submit(function(event) {
