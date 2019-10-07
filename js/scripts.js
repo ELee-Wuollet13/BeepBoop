@@ -24,6 +24,7 @@ function glitch(array, n) {
 $(document).ready(function() {
   $("#input form").submit(function(event) {
     event.preventDefault();
+    $(".results").show();
     var n = parseInt($('input#intake').val());
     var array = [];
 
