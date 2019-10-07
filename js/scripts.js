@@ -25,6 +25,11 @@ $(document).ready(function() {
   $("#input form").submit(function(event) {
     event.preventDefault();
     var n = parseInt($('input#intake').val());
+    // var array = [];
+    //
+    // for (i = 0; i <= n; i++) {
+    //   array.push
+    // }
     console.log(n);
     var results = glitch(n);
     console.log(results);
