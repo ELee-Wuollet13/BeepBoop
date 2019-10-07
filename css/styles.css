@@ -8,8 +8,16 @@ body {
 
 .container {
  text-align: center;
- font-size: 30px;
+ font-size: 22px;
  color: blue;
+ margin-left: auto;
+ margin-right: auto;
+ max-width: 1000px;
+ padding-left: 10%;
+ padding-right: 10%;
+}
+
+
 }
 
 .h1 {
