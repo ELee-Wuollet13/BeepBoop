@@ -1,7 +1,18 @@
 body {
-  background-color: #ffe2e7;
+  background-image: url("../img/hal.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+
 }
 
-container {
-  background-color: (#ffe2e7)
+.container {
+ text-align: center;
+ font-size: 30px;
+ color: blue;
+}
+
+.h1 {
+  text-align: center;
+  color: red;
 }
